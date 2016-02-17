@@ -1,6 +1,15 @@
 body{
 	font-family: 'Open Sans', sans-serif;
 }
+.h1,
+.h2,
+.h3,
+h1,
+h2,
+h3 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+ }
 .w-100{
 	width: 100% !important;
 }
@@ -11,16 +20,21 @@ nav{
 .navbar-nav {
     margin: 0px -15px;
 }
-.nav a span, a.navbar-brand span{
+.nav a,
+a.navbar-brand{
 	text-transform: uppercase;
 	font-weight: 700;
-	font-size: 0.8em !important;
+	font-size: 0.9em !important;
 	color: rgba(255, 255, 255, 0.5) !important;
 }
+.nav a:hover,
+.navbar-brand:hover{
+	color: rgba(255, 255, 255, 0.9) !important;
+}
+.nav>li>a:focus,
 .nav>li>a:hover {
-    background-color: none;
     text-decoration: none;
-    background-color: none;
+    background-color: rgba(255, 255, 255, 0.2);
 }
 header{
 	background-image: url(../img/header.jpg);
@@ -29,4 +43,10 @@ header{
 	background-position: center;
 	background-attachment: fixed;
 	height: 100vh;
+}
+header h1{
+	color: white;
+	font-weight: 700;
+	font-size: 3.5em !important;
+	padding-top: 35vh;
 }
