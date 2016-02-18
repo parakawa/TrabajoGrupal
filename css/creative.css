@@ -1,6 +1,9 @@
 body{
 	font-family: 'Open Sans', sans-serif;
 }
+a{
+	text-decoration: none !important;
+}
 .h1,
 .h2,
 .h3,
@@ -33,7 +36,6 @@ a.navbar-brand{
 }
 .nav>li>a:focus,
 .nav>li>a:hover {
-    text-decoration: none;
     background-color: rgba(255, 255, 255, 0.2);
 }
 section.banner{
@@ -52,7 +54,71 @@ div.banner-rocas{
     width: 100%;
 }
 div.banner-rocas h1{
-	color: white;
 	font-weight: 700;
 	font-size: 3.5em !important;
+	margin: 0% 22%;
+}
+.conoce{
+	background-color: #F05F40;
+	color: white;
+	/*esto debe ir en boton*/
+	font-size: 0.8em;
+	font-weight: 600;
+}
+.conoce:hover{
+	color: white;
+}
+.description{
+	margin: 0% 28%;
+	font-size: 0.9em;
+	color: rgba(255, 255, 255, 0.8);
+}
+section.aboutme h2{
+	padding-top: 100px;
+}
+section.banner p{
+	padding-bottom: 55px;
+}
+section.aboutme p{
+	padding-bottom: 125px;
+}
+.bg-white{
+	background-color: white;
+}
+@media only screen and (max-width: 767px) {
+	.navbar-toggle {
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(212, 205, 205);
+	}
+	nav,
+	.nav a{
+	background-color: white;
+	color: black !important;
+	}
+	a.txt-portafolio{
+		color: #F05F40 !important;
+		font-size: 1.3em !important;
+	}
+	.nav li{
+		border-top: 1px solid gray;
+	}
+	div.banner-rocas h1{
+		font-size: 3em !important;
+		margin: 0% 10%;
+		padding-top: 100px;
+	}
+	.description{
+		padding-top: 10px;
+		margin: 0% 4%;
+		font-size: 1.2em;
+	}
+	section.aboutme h2{
+		padding-top: 100px;
+	}
+	.bg-white{
+		background-color: white;
+	}
+	span.icon-bar{
+		background-color: black;
+	}
 }
