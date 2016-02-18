@@ -1,3 +1,135 @@
+body{
+	font-family: 'Open Sans', sans-serif;
+}
+a{
+	text-decoration: none !important;
+}
+.h1,
+.h2,
+.h3,
+h1,
+h2,
+h3 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+ }
+.w-100{
+	width: 100%;
+}
+nav{
+	border-color: #e7e7e7;
+	background-color: rgba(255, 255, 255, 0.1);
+}
+.navbar-nav {
+    margin: 0px -15px;
+}
+.nav a,
+a.navbar-brand{
+	text-transform: uppercase;
+	font-weight: 700;
+	font-size: 0.9em !important;
+	color: rgba(255, 255, 255, 0.5) !important;
+}
+.nav a:hover,
+.navbar-brand:hover{
+	color: rgba(255, 255, 255, 0.9) !important;
+}
+.nav>li>a:focus,
+.nav>li>a:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+}
+section.banner{
+	width: 100%;
+	display: table;
+}
+div.banner-rocas{
+	background-image: url(../img/header.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-attachment: fixed;
+	height: 100vh;
+	display: table-cell;
+    vertical-align: middle;
+    width: 100%;
+}
+div.banner-rocas h1{
+	font-weight: 700;
+	font-size: 3.5em !important;
+	margin: 0% 22%;
+}
+.conoce{
+	background-color: #F05F40;
+	color: white;
+	/*esto debe ir en boton*/
+	font-size: 0.8em;
+	font-weight: 600;
+	border: none;
+}
+.conoce:hover{
+	color: white;
+}
+.description{
+	margin: 0% 28%;
+	font-size: 0.9em;
+	color: rgba(255, 255, 255, 0.8);
+}
+section.aboutme h2{
+	padding-top: 100px;
+}
+section.banner p{
+	padding-bottom: 55px;
+}
+section.aboutme p{
+	padding-bottom: 125px;
+}
+.bg-white{
+	background-color: white;
+}
+@media only screen and (max-width: 767px) {
+	.navbar-toggle {
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(212, 205, 205);
+	}
+	nav,
+	.nav a{
+	background-color: white;
+	color: black !important;
+	}
+	.nav a:hover{
+		color: #F05F40 !important;
+	}
+	.navbar-brand:hover{
+	color: #F05F40 !important;
+	}
+	a.txt-portafolio{
+		color: #F05F40 !important;
+		font-size: 1.3em !important;
+	}
+	a.txt-portafolio:focus{
+		color: #F05F40 !important;
+	}
+	.nav li{
+		border-top: 1px solid gray;
+	}
+	div.banner-rocas h1{
+		font-size: 3em !important;
+		margin: 0% 10%;
+		padding-top: 100px;
+	}
+	.description{
+		padding-top: 10px;
+		margin: 0% 4%;
+		font-size: 1.2em;
+	}
+	section.aboutme h2{
+		padding-top: 100px;
+	}
+	span.icon-bar{
+		background-color: black;
+	}
+}
+
 .bg-naranja{
 	background-color: #F05F40;
 }
@@ -27,6 +159,11 @@ hr{
 	width: 50px;
 }
 
+.hr-white{
+	border: 1.5px white solid;
+	width: 50px;
+}
+
 .servicios i{
 	font-size: 55px;
 	color: #F05F40;
@@ -38,7 +175,7 @@ hr{
 
 .btn-git{
 	border-radius: 24px;
-    background-color: white;
+	
     padding: 14px 39px;
     font-weight: 600;
     margin-top: 7px;
