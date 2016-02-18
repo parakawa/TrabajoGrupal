@@ -53,23 +53,18 @@ hr{
 	font-size: 18px;
 }
 
-.projects img:hover{
-	-webkit-filter: blur(5px);
+.projects img{
+	width: 100%;
 }
 
-.projects img {
-  -webkit-transition: all 1s ease;
-     -moz-transition: all 1s ease;
-       -o-transition: all 1s ease;
-      -ms-transition: all 1s ease;
-          transition: all 1s ease;
+.pd-0{
+	padding: 0%;
 }
- 
 
 
 @media (max-width: 600px) {
    .mas {
-   		padding: 5%;
+   		padding: 5% 0%;
   }
   .servicios{
   	padding: 8% 0;
@@ -79,3 +74,4 @@ hr{
   	margin-top: 5%;
   }
 }
+
