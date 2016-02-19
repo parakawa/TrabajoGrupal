@@ -190,27 +190,29 @@ hr{
 	font-size: 18px;
 }
 
-.projects img{
-	width: 100%;
-}
-
 .pd-0{
 	padding: 0%;
 }
 
-.sombra{
-	background-color: rgb(240, 95, 64);
-	color:white;
-	display: none;
-	}
-
-.projects img :hover{
-	position: absolute;
+.img{
 	width: 100%;
-	top: 50%;
-	transform: translateY(-50%);
-	font-size: 1.8rem;
-	}
+}
+
+.colored{
+	background: #F05F40;
+}
+
+.ih-item.square.effect4.colored .mask1,
+.ih-item.square.effect4.colored .mask2 {
+  background: #F05F40;
+  background: rgba(221, 90, 61, 0.6);
+}
+
+.ih-item.square, .info {
+  position: relative;
+  width: 100%;
+}
+
 
 @media (max-width: 600px) {
    .mas {

@@ -63,9 +63,6 @@
 .ih-item.square {
   position: relative;
   width: 316px;
-  height: 216px;
-  border: 8px solid #fff;
-  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
 }
 .ih-item.square .info {
   position: absolute;
@@ -2787,8 +2784,8 @@
   position: absolute;
   background: #333333;
   background: rgba(0, 0, 0, 0.6);
-  height: 361px;
-  width: 361px;
+  height: 250%;
+  width: 100%;
   -webkit-transition: all 0.35s ease-in-out;
   -moz-transition: all 0.35s ease-in-out;
   transition: all 0.35s ease-in-out;
@@ -2827,7 +2824,7 @@
   background: #111111;
   height: 0;
   visibility: hidden;
-  width: 361px;
+  width: 100%;
   -webkit-transform: rotate(-33.5deg) translate(-112px, 166px);
   -moz-transform: rotate(-33.5deg) translate(-112px, 166px);
   -ms-transform: rotate(-33.5deg) translate(-112px, 166px);
@@ -2883,7 +2880,7 @@
   transform: rotate(56.5deg) translateX(-1px);
 }
 .ih-item.square.effect4 a:hover .info {
-  width: 300px;
+  width: 100%;
   height: 120px;
   visibility: visible;
   top: 40px;
