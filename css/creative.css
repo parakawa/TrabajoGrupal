@@ -130,6 +130,8 @@ section.aboutme p{
 	}
 }
 
+/******* parte 2 ********/
+
 .bg-naranja{
 	background-color: #F05F40;
 }
@@ -154,6 +156,10 @@ section.aboutme p{
 	padding: 2%;
 }
 
+.pd-3{
+	padding: 3%;
+}
+
 hr{
 	border: 1.5px #F05F40 solid;
 	width: 50px;
@@ -175,7 +181,7 @@ hr{
 
 .btn-git{
 	border-radius: 24px;
-	
+	border: none;
     padding: 14px 39px;
     font-weight: 600;
     margin-top: 7px;
@@ -187,7 +193,9 @@ hr{
 }
 
 .contact p{
-	font-size: 18px;
+	font-size: 16px;
+	width: 65%;
+	margin: auto;
 }
 
 .pd-0{
@@ -196,6 +204,16 @@ hr{
 
 .img{
 	width: 100%;
+}
+
+.servicios h3{
+	font-size: 20px;
+	margin-top: 7px;
+}
+
+.servicios p{
+	font-size: 17px;
+	margin-top: 7px;
 }
 
 .colored{
@@ -225,5 +243,7 @@ hr{
   .servicios i{
   	margin-top: 5%;
   }
+
+
 }
 
