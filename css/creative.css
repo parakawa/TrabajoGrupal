@@ -61,10 +61,7 @@ div.banner-rocas h1{
 .conoce{
 	background-color: #F05F40;
 	color: white;
-	/*esto debe ir en boton*/
-	font-size: 0.8em;
-	font-weight: 600;
-	border: none;
+	font-size: 1em;
 }
 .conoce:hover{
 	color: white;
@@ -85,6 +82,121 @@ section.aboutme p{
 }
 .bg-white{
 	background-color: white;
+}
+
+/******* parte 2 ********/
+
+.bg-naranja{
+	background-color: #F05F40;
+}
+
+.bg-oscuro{
+	background-color: #222222;
+}
+.pt-15{
+	padding-top: 15px;
+}
+.pb-15{
+	padding-bottom: 15px;
+}
+a.hov-naranja{
+	display: block;
+	color: black;
+	padding-top: 10px;
+}
+a.mail-katy{
+	color: #F05F40;
+}
+a.hov-naranja:hover{
+	color: #F05F40;
+}
+
+.text-white{
+	color: white;
+}
+
+.pd-5{
+	padding: 5%;
+}
+
+.pd-2{
+	padding: 2%;
+}
+
+.pd-3{
+	padding: 3%;
+}
+
+hr{
+	border: 1.5px #F05F40 solid;
+	width: 50px;
+}
+
+.hr-white{
+	border: 1.5px white solid;
+	width: 50px;
+}
+.servicios i{
+	font-size: 55px;
+	color: #F05F40;
+}
+.servicios p{
+	color: #777777;
+}
+.services h3{
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+.botones{
+	border-radius: 24px;
+	border: none;
+    padding: 14px 39px;
+    font-weight: 600;
+    margin-top: 7px;
+    display: inline-block;
+}
+.git{
+	background-color: white;
+	color: black;
+}
+.git:focus,
+.git:hover{
+	color: black;
+}
+.contact i{
+	font-size: 40px;
+	margin-top: 20px;
+}
+.contact p{
+	font-size: 16px;
+	width: 65%;
+	margin: auto;
+}
+.pd-0{
+	padding: 0%;
+}
+.img{
+	width: 100%;
+}
+.servicios h3{
+	font-size: 20px;
+	margin-top: 7px;
+}
+.servicios p{
+	font-size: 17px;
+	margin-top: 7px;
+}
+.colored{
+	background: #F05F40;
+}
+.ih-item.square.effect4.colored .mask1,
+.ih-item.square.effect4.colored .mask2 {
+  background: #F05F40;
+  background: rgba(221, 90, 61, 0.6);
+}
+.ih-item.square, .info {
+  position: relative;
+  width: 100%;
 }
 @media only screen and (max-width: 767px) {
 	.navbar-toggle {
@@ -128,122 +240,32 @@ section.aboutme p{
 	span.icon-bar{
 		background-color: black;
 	}
-}
-
-/******* parte 2 ********/
-
-.bg-naranja{
-	background-color: #F05F40;
-}
-
-.bg-oscuro{
-	background-color: #222222;
-}
-
-.text-naranja{
-	color: #F05F40;
-}
-
-.text-white{
-	color: white;
-}
-
-.pd-5{
-	padding: 5%;
-}
-
-.pd-2{
-	padding: 2%;
-}
-
-.pd-3{
-	padding: 3%;
-}
-
-hr{
-	border: 1.5px #F05F40 solid;
-	width: 50px;
-}
-
-.hr-white{
-	border: 1.5px white solid;
-	width: 50px;
-}
-
-.servicios i{
-	font-size: 55px;
-	color: #F05F40;
-}
-
-.servicios p{
-	color: #777777;
-}
-
-.btn-git{
-	border-radius: 24px;
-	border: none;
-    padding: 14px 39px;
-    font-weight: 600;
-    margin-top: 7px;
-}
-
-.contact i{
-	font-size: 40px;
-	margin-top: 20px;
-}
-
-.contact p{
-	font-size: 16px;
-	width: 65%;
-	margin: auto;
-}
-
-.pd-0{
-	padding: 0%;
-}
-
-.img{
-	width: 100%;
-}
-
-.servicios h3{
-	font-size: 20px;
-	margin-top: 7px;
-}
-
-.servicios p{
-	font-size: 17px;
-	margin-top: 7px;
-}
-
-.colored{
-	background: #F05F40;
-}
-
-.ih-item.square.effect4.colored .mask1,
-.ih-item.square.effect4.colored .mask2 {
-  background: #F05F40;
-  background: rgba(221, 90, 61, 0.6);
-}
-
-.ih-item.square, .info {
-  position: relative;
-  width: 100%;
-}
-
-
-@media (max-width: 600px) {
-   .mas {
+	.mas {
    		padding: 5% 0%;
-  }
-  .servicios{
+  	}
+  	.servicios{
   	padding: 8% 0;
-  }
-
-  .servicios i{
+  	}
+  	.servicios i{
   	margin-top: 5%;
-  }
-
-
+  	}
+	h2.mas-de-mi{
+		font-size: 1.5em;
+		padding-top: 20px;
+	}
+	.listo{
+		width: 95% !important;
+	}
+	.services-description{
+		padding-top: 10px;
+	}
+	.bg-oscuro{
+		padding-bottom: 20px;
+	}
+	.botones{
+		margin-bottom: 20px;
+	}
+	.contact h2{
+		padding-top: 50px;
+	}
 }
-
