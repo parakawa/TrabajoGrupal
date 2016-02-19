@@ -68,7 +68,7 @@ div.banner-rocas h1{
 }
 .description{
 	margin: 0% 28%;
-	font-size: 1.1em;
+	font-size: 1.3em;
 	color: rgba(255, 255, 255, 0.8);
 }
 section.aboutme h2{
@@ -280,4 +280,3 @@ hr{
 	.contact h2{
 		padding-top: 50px;
 	}
-}
