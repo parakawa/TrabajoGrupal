@@ -8,7 +8,7 @@
     <title>Portfolio Theme</title>
 
     <!-- Bootstrap Core CSS -->
-    <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
+    <link rel="stylesheet" href="css/bootstrap.css" type="text/css">
 
     <!-- Custom Fonts -->
     <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
@@ -17,7 +17,7 @@
 
     <!-- Plugin CSS -->
     <link rel="stylesheet" href="css/animate.min.css" type="text/css">
-
+    <link rel="stylesheet" href="css/ihover.css" type="text/css">
     <!-- Custom CSS -->
     <link rel="stylesheet" href="css/creative.css" type="text/css">
 
@@ -30,9 +30,197 @@
 
 </head>
 
-<body>
+<body class="text-center">
     <!-- Inserta tu codigo aqui -->
-
+    <!-- Fixed navbar -->
+    <header id="portafolio">
+        <nav class="navbar navbar-fixed-top">
+          <div class="container w-100">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand txt-portafolio" href="#portafolio" name="">mi portafolio</a>
+            </div>
+            <div id="navbar" class="navbar-collapse collapse">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#sobre-mi"><span>sobre mí</span></a></li>
+                    <li><a href="#servicios"><span>servicios</span></a></li>
+                    <li><a href="#trabajos"><span>mis trabajos</span></a></li>
+                    <li><a href="#contactame"><span>contáctame</span></a></li>
+                </ul>
+            </div>
+            <!--/.nav-collapse -->
+          </div>
+        </nav>
+    </header>
+    <section class="banner text-white">
+        <div class="banner-rocas">
+            <h1>
+            HOLA, MI NOMBRE ES KATY SOY CODER DE LABORATORIA
+            </h1>
+            <hr>
+            <p class="description">Estás interesado en desarrollar un sitio web o necesitas una fronted developer, yo te puedo ayudar con los diferentes servicios que brindo</p>
+            <a href="#sobre-mi" class="botones conoce">CONOCE MÁS</a>
+        </div>
+    </section>
+    <section id="sobre-mi" class="aboutme text-white bg-naranja">
+        <h2>SOBRE MÍ</h2>
+        <hr class="hr-white">
+        <p class="description">Soy egresada de Laboratoria. Salí con el título de Fronted developer Jr. Desarrollo páginas web en HTML / CSS / Javascript. Soy creativa, inteligente y alegre cosa que transmito en cada una de las webs que desarrollo</p>
+    </section>
+    <section class="servicios pd-5" id="servicios">
+        <div class="container">
+            <h2>SERVICIOS</h2>
+            <hr>
+            <div class="row pt-15 services">
+                <div class="col-xs-12 col-md-3 pd-0 services-description">
+                    <i class="fa fa-diamond"></i>
+                    <h3>Desarrollo de plantillas</h3>
+                    <p>Desarrollo de plantillas a medida con HTML5/CSS3/JS</p>
+                </div>
+                <div class="col-xs-12 col-md-3 pd-0 services-description">
+                    <i class="fa fa-paper-plane"></i>
+                    <h3>Campañas de Mailing</h3>
+                    <p>Desarrollo de plantillas a medida con HTML5/CSS3/JS</p>
+                </div>
+                <div class="col-xs-12 col-md-3 pd-0 services-description">
+                    <i class="fa fa-newspaper-o"></i>
+                    <h3>Full Websites</h3>
+                    <p>Desarrollo de plantillas a medida con HTML5/CSS3/JS</p>
+                </div>
+                <div class="col-xs-12 col-md-3 pd-0 services-description">
+                    <i class="fa fa-heart"></i>
+                    <h3>Aplicaciones Android</h3>
+                    <p>Desarrollo de plantillas a medida con HTML5/CSS3/JS</p>
+                </div>
+            </div>
+        </div>    
+    </section>
+    <section class="trabajos container-fluid" id="trabajos">
+        <div class="row">
+            <div class="col-xs-12 col-sm-4 pd-0">
+                <div class="ih-item square colored effect4" id="foto1">
+                    <a href="#foto1">
+                        <div class="img">
+                            <img src="img/portfolio/1.jpg">
+                        </div>
+                        <div class="mask1"></div>
+                        <div class="mask2"></div>
+                        <div class="info">
+                          <h3>CATEGORÍA</h3>
+                          <p>Nombre Proyecto</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="col-xs-12 col-sm-4 pd-0">
+                <div class="ih-item square colored effect4" id="foto2">
+                    <a href="#foto1">
+                        <div class="img">
+                            <img src="img/portfolio/2.jpg">
+                        </div>
+                        <div class="mask1"></div>
+                        <div class="mask2"></div>
+                        <div class="info">
+                          <h3>CATEGORÍA</h3>
+                          <p>Nombre Proyecto</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+             <div class="col-xs-12 col-sm-4 pd-0">
+                <div class="ih-item square colored effect4" id="foto3">
+                    <a href="#foto3">
+                        <div class="img">
+                            <img src="img/portfolio/3.jpg">
+                        </div>
+                        <div class="mask1"></div>
+                        <div class="mask2"></div>
+                        <div class="info">
+                          <h3>CATEGORÍA</h3>
+                          <p>Nombre Proyecto</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xs-12 col-sm-4 pd-0">
+                <div class="ih-item square colored effect4" id="foto4">
+                    <a href="#foto4">
+                        <div class="img">
+                            <img src="img/portfolio/4.jpg">
+                        </div>
+                        <div class="mask1"></div>
+                        <div class="mask2"></div>
+                        <div class="info">
+                          <h3>CATEGORÍA</h3>
+                          <p>Nombre Proyecto</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="col-xs-12 col-sm-4 pd-0">
+                <div class="ih-item square colored effect4" id="foto5">
+                    <a href="#foto5">
+                        <div class="img">
+                            <img src="img/portfolio/5.jpg">
+                        </div>
+                        <div class="mask1"></div>
+                        <div class="mask2"></div>
+                        <div class="info">
+                          <h3>CATEGORÍA</h3>
+                          <p>Nombre Proyecto</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+             <div class="col-xs-12 col-sm-4 pd-0">
+                <div class="ih-item square colored effect4" id="foto6">
+                <a href="#foto6">
+                    <div class="img">
+                        <img src="img/portfolio/6.jpg">
+                    </div>
+                    <div class="mask1"></div>
+                    <div class="mask2"></div>
+                    <div class="info">
+                      <h3>CATEGORÍA</h3>
+                      <p>Nombre Proyecto</p>
+                    </div>
+                </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="container-fluid">
+         <div class="row bg-oscuro pd-3 mas">
+            <div class="col-xs-12 pd-0"><h2 class="text-white pb-15 mas-de-mi">Si quieres saber más de mi proyecto, revisa mi github</h2></div>
+            <div class="col-xs-12 pd-0"><a href="https://github.com/katycoder" class="botones git bg-white">VER MI GITHUB!</a></div>
+        </div>
+    </section>
+    <section class="contact pd-5 text-center" id="contactame">
+        <div class="container">
+            <h2>CONTÁCTAME</h2>
+            <hr>
+            <p class="pt-15 listo">¿Listo para empezar tu siguiente proyecto? ¿Te gustó lo que has visto? Genial!, dame una llamada o envíame un correo y te responderé lo más rápido que pueda!</p>
+            <div class="row pt-15">
+                <div class="col-xs-12 col-md-offset-3 col-md-3">
+                    <i class="fa fa-phone"></i>
+                    <a href="http://www.skype.com/es/" class="hov-naranja">123-456-789</a>
+                </div>
+                <div class="col-xs-12 col-md-3">
+                    <i class="fa fa-envelope-o"></i>
+                    <a href="https://www.google.com/intl/es-419/mail/help/about.html" class="hov-naranja mail-katy">katy@laboratoria.la</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    
     <!-- jQuery -->
     <script src="js/jquery.js"></script>
 

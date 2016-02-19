@@ -1,1 +1,271 @@
-/* Inserta tu codigo CSS aqui */
+body{
+	font-family: 'Open Sans', sans-serif;
+}
+a{
+	text-decoration: none !important;
+}
+.h1,
+.h2,
+.h3,
+h1,
+h2,
+h3 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+ }
+.w-100{
+	width: 100%;
+}
+nav{
+	border-color: #e7e7e7;
+	background-color: rgba(255, 255, 255, 0.2);
+}
+.navbar-nav {
+    margin: 0px -15px;
+}
+.nav a,
+a.navbar-brand{
+	text-transform: uppercase;
+	font-weight: 700;
+	font-size: 0.9em !important;
+	color: rgba(255, 255, 255, 0.5) !important;
+}
+.nav a:hover,
+.navbar-brand:hover{
+	color: rgba(255, 255, 255, 0.9) !important;
+}
+.nav>li>a:focus,
+.nav>li>a:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+}
+section.banner{
+	width: 100%;
+	display: table;
+}
+div.banner-rocas{
+	background-image: url(../img/header.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-attachment: fixed;
+	height: 100vh;
+	display: table-cell;
+    vertical-align: middle;
+    width: 100%;
+}
+div.banner-rocas h1{
+	font-weight: 700;
+	font-size: 3.5em !important;
+	margin: 0% 22%;
+}
+.conoce{
+	background-color: #F05F40;
+	color: white;
+	font-size: 1em;
+}
+.conoce:hover{
+	color: white;
+}
+.description{
+	margin: 0% 28%;
+	font-size: 1.3em;
+	color: rgba(255, 255, 255, 0.8);
+}
+section.aboutme h2{
+	padding-top: 100px;
+}
+section.banner p{
+	padding-bottom: 55px;
+}
+section.aboutme p{
+	padding-bottom: 125px;
+}
+.bg-white{
+	background-color: white;
+}
+
+/******* parte 2 ********/
+
+.bg-naranja{
+	background-color: #F05F40;
+}
+
+.bg-oscuro{
+	background-color: #222222;
+}
+.pt-15{
+	padding-top: 15px;
+}
+.pb-15{
+	padding-bottom: 15px;
+}
+a.hov-naranja{
+	display: block;
+	color: black;
+	padding-top: 10px;
+}
+a.mail-katy{
+	color: #F05F40;
+}
+a.hov-naranja:hover{
+	color: #F05F40;
+}
+
+.text-white{
+	color: white;
+}
+
+.pd-5{
+	padding: 5%;
+}
+
+.pd-2{
+	padding: 2%;
+}
+
+.pd-3{
+	padding: 3%;
+}
+
+hr{
+	border: 1.5px #F05F40 solid;
+	width: 50px;
+}
+
+.hr-white{
+	border: 1.5px white solid;
+	width: 50px;
+}
+.servicios i{
+	font-size: 55px;
+	color: #F05F40;
+}
+.servicios p{
+	color: #777777;
+}
+.services h3{
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+.botones{
+	border-radius: 24px;
+	border: none;
+    padding: 14px 39px;
+    font-weight: 600;
+    margin-top: 7px;
+    display: inline-block;
+}
+.git{
+	background-color: white;
+	color: black;
+}
+.git:focus,
+.git:hover{
+	color: black;
+}
+.contact i{
+	font-size: 40px;
+	margin-top: 20px;
+}
+.contact p{
+	font-size: 16px;
+	width: 65%;
+	margin: auto;
+}
+.pd-0{
+	padding: 0%;
+}
+.img{
+	width: 100%;
+}
+.servicios h3{
+	font-size: 20px;
+	margin-top: 7px;
+}
+.servicios p{
+	font-size: 17px;
+	margin-top: 7px;
+}
+.colored{
+	background: #F05F40;
+}
+.ih-item.square.effect4.colored .mask1,
+.ih-item.square.effect4.colored .mask2 {
+  background: #F05F40;
+  background: rgba(221, 90, 61, 0.6);
+}
+.ih-item.square, .info {
+  position: relative;
+  width: 100%;
+}
+@media only screen and (max-width: 767px) {
+	.navbar-toggle {
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(212, 205, 205);
+	}
+	nav,
+	.nav a{
+	background-color: white;
+	color: black !important;
+	}
+	.nav a:hover{
+		color: #F05F40 !important;
+	}
+	.navbar-brand:hover{
+	color: #F05F40 !important;
+	}
+	a.txt-portafolio{
+		color: #F05F40 !important;
+		font-size: 1.3em !important;
+	}
+	a.txt-portafolio:focus{
+		color: #F05F40 !important;
+	}
+	.nav li{
+		border-top: 1px solid gray;
+	}
+	div.banner-rocas h1{
+		font-size: 3em !important;
+		margin: 0% 10%;
+		padding-top: 100px;
+	}
+	.description{
+		padding-top: 10px;
+		margin: 0% 4%;
+		font-size: 1.2em;
+	}
+	section.aboutme h2{
+		padding-top: 100px;
+	}
+	span.icon-bar{
+		background-color: black;
+	}
+	.mas {
+   		padding: 5% 0%;
+  	}
+  	.servicios{
+  	padding: 8% 0;
+  	}
+  	.servicios i{
+  	margin-top: 5%;
+  	}
+	h2.mas-de-mi{
+		font-size: 1.5em;
+		padding-top: 20px;
+	}
+	.listo{
+		width: 95% !important;
+	}
+	.services-description{
+		padding-top: 10px;
+	}
+	.bg-oscuro{
+		padding-bottom: 20px;
+	}
+	.botones{
+		margin-bottom: 20px;
+	}
+	.contact h2{
+		padding-top: 50px;
+	}
+}
