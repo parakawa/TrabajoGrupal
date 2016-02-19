@@ -175,22 +175,19 @@ hr{
 .pd-0{
 	padding: 0%;
 }
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
+
 
 .sombra{
 	background-color: rgb(240, 95, 64);
 	color:white;
 	display: none;
 	}
->>>>>>> cb07b1453eec63d9307ea0de62d670f8a917012e
 
 .projects img :hover{
 	position: absolute;
-=======
+  }
 .img{
->>>>>>> 79897ab35d20ef2b0450dd4314d8f341436226b9
+
 	width: 100%;
 }
 .servicios h3{
